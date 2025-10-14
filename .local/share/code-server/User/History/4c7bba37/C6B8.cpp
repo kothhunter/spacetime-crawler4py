@@ -1,0 +1,17 @@
+#include "rectangle.hpp"
+#include <iostream>
+
+Rectangle::Rectangle(Point center, std::string name, int width, int height) 
+    : Shape(center, std::move(name)), width(width), height(height) {}
+
+double Rectangle::area() const {
+    return static_cast<double>(width) * height;
+}
+
+void Rectangle::draw(std::ostream& out) const {
+    out << "Drawing Rectangle with width " << width << " and height " << height << "\n";
+}
+
+Rectangle* Rectangle::clone() const {
+    return new Rectangle(*this);
+}

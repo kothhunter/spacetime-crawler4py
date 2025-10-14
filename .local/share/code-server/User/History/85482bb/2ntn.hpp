@@ -1,0 +1,1 @@
+#ifndef STRING_HPP

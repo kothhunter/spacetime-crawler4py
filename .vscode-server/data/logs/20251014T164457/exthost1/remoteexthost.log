@@ -1,0 +1,41 @@
+2025-10-14 16:44:58.568 [info] Extension host with pid 2990677 started
+2025-10-14 16:44:58.583 [info] Lock '/home/hwlee4/.vscode-server/data/User/workspaceStorage/0684665360a1431657c5fb56316f6548/vscode.lock': Lock acquired.
+2025-10-14 16:44:58.671 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-14 16:44:58.750 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-10-14 16:44:58.775 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-10-14 16:44:58.775 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-14 16:44:59.034 [info] Eager extensions activated
+2025-10-14 16:44:59.035 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-14 16:44:59.035 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-14 16:45:00.675 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2648
+2025-10-14 16:45:01.345 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2648
+2025-10-14 16:45:03.625 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2648
+2025-10-14 16:45:09.059 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2648
+2025-10-14 16:45:14.474 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2648
+2025-10-14 16:45:20.390 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4065
+2025-10-14 16:45:26.317 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5522
+2025-10-14 16:45:32.378 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8880
+2025-10-14 16:45:56.056 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-10-14 16:45:56.057 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2025-10-14 16:45:56.744 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-10-14 16:46:00.413 [error] TypeError: Cannot read properties of undefined (reading 'id')
+	at /home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:522265
+	at Array.forEach (<anonymous>)
+	at u.validateCache (/home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:522163)
+	at async f.addEnvsToCacheForQuery (/home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:527455)
+	at async S.autoselectInterpreterWithLocators (/home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:402490)
+	at async S.autoSelectInterpreter (/home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:399736)
+	at async g.activateWorkspace (/home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2207)
+2025-10-14 16:46:00.414 [error] TypeError: Cannot read properties of undefined (reading 'id')
+	at /home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:522265
+	at Array.forEach (<anonymous>)
+	at u.validateCache (/home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:522163)
+	at async f.addEnvsToCacheForQuery (/home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:527455)
+	at async S.autoselectInterpreterWithLocators (/home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:402490)
+	at async S.autoSelectInterpreter (/home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:399736)
+	at async g.activateWorkspace (/home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2207)
+2025-10-14 16:46:00.620 [warning] [Decorations] CAPPING events from decorations provider vscode.git 11449
+2025-10-14 16:46:06.901 [warning] [Decorations] CAPPING events from decorations provider vscode.git 15427
+2025-10-14 16:46:25.690 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10076
+2025-10-14 16:46:29.435 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-10-14 16:50:34.254 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000

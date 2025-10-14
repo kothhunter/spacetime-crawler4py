@@ -1,0 +1,14 @@
+2025-10-08 15:21:51.340 [info] 
+
+
+
+
+2025-10-08 15:21:51.377 [info] Extension host agent started.
+2025-10-08 15:21:51.502 [info] [127.0.0.1][67fea133][ManagementConnection] New connection established.
+2025-10-08 15:21:51.505 [info] [127.0.0.1][ff9cc2fc][ExtensionHostConnection] New connection established.
+2025-10-08 15:21:51.639 [info] [127.0.0.1][ff9cc2fc][ExtensionHostConnection] <2033196> Launched Extension Host Process.
+2025-10-08 15:22:19.773 [info] [127.0.0.1][67fea133][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-10-08 15:22:19.804 [info] [127.0.0.1][ff9cc2fc][ExtensionHostConnection] <2033196> Extension Host Process exited with code: 0, signal: null.
+2025-10-08 15:22:19.804 [info] Cancelling previous shutdown timeout
+2025-10-08 15:22:19.805 [info] Last EH closed, waiting before shutting down
+2025-10-08 15:27:19.805 [info] Last EH closed, shutting down

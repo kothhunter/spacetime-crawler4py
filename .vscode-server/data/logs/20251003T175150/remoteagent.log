@@ -1,0 +1,16 @@
+2025-10-03 17:51:50.704 [info] 
+
+
+
+
+2025-10-03 17:51:50.704 [info] Extension host agent started.
+2025-10-03 17:51:50.742 [info] Started initializing default profile extensions in extensions installation folder. file:///home/hwlee4/.vscode-server/extensions
+2025-10-03 17:51:50.755 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/hwlee4/.vscode-server/extensions
+2025-10-03 17:51:50.798 [info] [127.0.0.1][817e374f][ExtensionHostConnection] New connection established.
+2025-10-03 17:51:50.799 [info] [127.0.0.1][3a0873c3][ManagementConnection] New connection established.
+2025-10-03 17:51:51.006 [info] [127.0.0.1][817e374f][ExtensionHostConnection] <1619011> Launched Extension Host Process.
+2025-10-03 17:55:54.678 [info] [127.0.0.1][3a0873c3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-10-03 17:55:54.711 [info] [127.0.0.1][817e374f][ExtensionHostConnection] <1619011> Extension Host Process exited with code: 0, signal: null.
+2025-10-03 17:55:54.711 [info] Cancelling previous shutdown timeout
+2025-10-03 17:55:54.711 [info] Last EH closed, waiting before shutting down
+2025-10-03 18:00:54.713 [info] Last EH closed, shutting down

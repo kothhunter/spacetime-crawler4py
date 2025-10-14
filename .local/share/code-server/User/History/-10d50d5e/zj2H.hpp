@@ -1,0 +1,32 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int char_to_index(char ch) {
+    if (isalpha(ch)) {
+        if (ch >= 'a' && ch <= 'z') {
+            ch = ch - 'a' + 'A';
+        }
+        return ch - 'A';
+    }
+    return -1; 
+}
+
+char index_to_char(int i) {
+    return 'A' + i;
+}
+
+void count(const string s, int counts[]) {
+    for (char ch : s) {
+        int index = char_to_index(ch);
+        if (index != -1) {
+            counts[index]++;
+        }
+    }
+}
+
+void print_counts(int counts[], int len) {
+    for (int i = 0; i < len; ++i) {
+        cout << index_to_char(i) << " " << counts[i] << endl;
+    }
+}

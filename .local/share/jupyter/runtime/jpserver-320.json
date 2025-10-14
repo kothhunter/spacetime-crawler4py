@@ -1,0 +1,13 @@
+{
+  "base_url": "/user/hwlee4/",
+  "hostname": "0.0.0.0",
+  "password": false,
+  "pid": 320,
+  "port": 8888,
+  "root_dir": "/home/ics-home",
+  "secure": false,
+  "sock": "",
+  "token": "6d65565397644114b416e0c6db3e2ad5",
+  "url": "http://ics45c-hwlee4:8888/user/hwlee4/",
+  "version": "2.14.2"
+}

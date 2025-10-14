@@ -1,0 +1,169 @@
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/opt/code-server/lib/vscode/out/bootstrap.js:1:471)
+    at process.emit (node:events:530:35)
+[03:51:23] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/opt/code-server/lib/vscode/out/vs/server/node/server.main.js:193:6389)
+    at process.emit (node:events:530:35)
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+[22:31:29] [127.0.0.1][92291a9d][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+[03:27:17] [127.0.0.1][0f9c2769][ExtensionHostConnection] Unknown reconnection token (seen before).
+[19:07:54] [127.0.0.1][5aff9507][ExtensionHostConnection] Unknown reconnection token (seen before).
+[19:08:17] [127.0.0.1][0d85d2da][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vs/base/common/buffer.js
+File not found: /opt/code-server/lib/vscode/out/vs/base/browser/browser.js
+File not found: /opt/code-server/lib/vscode/out/vs/base/browser/window.js
+File not found: /opt/code-server/lib/vscode/out/vs/base/common/event.js
+File not found: /opt/code-server/lib/vscode/out/vs/base/common/lifecycle.js
+File not found: /opt/code-server/lib/vscode/out/vs/base/common/marshalling.js
+File not found: /opt/code-server/lib/vscode/out/vs/base/common/network.js
+File not found: /opt/code-server/lib/vscode/out/vs/base/common/path.js
+File not found: /opt/code-server/lib/vscode/out/vs/base/common/resources.js
+File not found: /opt/code-server/lib/vscode/out/vs/base/common/strings.js
+File not found: /opt/code-server/lib/vscode/out/vs/base/common/uri.js
+File not found: /opt/code-server/lib/vscode/out/vs/platform/tunnel/common/tunnel.js
+File not found: /opt/code-server/lib/vscode/out/vs/platform/product/common/product.js
+File not found: /opt/code-server/lib/vscode/out/vs/platform/window/common/window.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+[19:02:51] [127.0.0.1][6ba9cf00][ExtensionHostConnection] Unknown reconnection token (seen before).
+[19:03:22] [127.0.0.1][4c4424ae][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+[21:35:09] [127.0.0.1][179e942b][ExtensionHostConnection] Unknown reconnection token (seen before).
+[21:40:06] [127.0.0.1][7f31137d][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+[20:20:00] [127.0.0.1][ca282fe5][ExtensionHostConnection] Unknown reconnection token (seen before).
+[20:20:01] [127.0.0.1][1bbaff92][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+[23:59:40] [127.0.0.1][819d205a][ExtensionHostConnection] Unknown reconnection token (seen before).
+[00:00:53] [127.0.0.1][82f73bfb][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+[04:25:24] [127.0.0.1][b5a93922][ManagementConnection] Unknown reconnection token (seen before).
+[04:25:24] [127.0.0.1][ec47c72f][ExtensionHostConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+[20:15:12] [127.0.0.1][6c6d3ae0][ExtensionHostConnection] Unknown reconnection token (seen before).
+[20:15:12] [127.0.0.1][5d3da1ea][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+[03:47:40] [127.0.0.1][98cec317][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+[20:29:07] [127.0.0.1][efab896a][ExtensionHostConnection] Unknown reconnection token (seen before).
+[20:29:07] [127.0.0.1][68834993][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+[09:11:09] [127.0.0.1][02f71378][ExtensionHostConnection] Unknown reconnection token (seen before).
+[09:11:10] [127.0.0.1][16160397][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+[20:35:00] [127.0.0.1][f966df81][ExtensionHostConnection] Unknown reconnection token (seen before).
+[20:35:00] [127.0.0.1][aa0447ab][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+[19:20:47] [127.0.0.1][4c35866e][ExtensionHostConnection] Unknown reconnection token (seen before).
+[19:21:29] [127.0.0.1][e3ccc532][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+[09:31:14] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[09:31:14] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/hwlee4/ICS45C/HW7)
+[23:15:10] [127.0.0.1][c2f03566][ManagementConnection] Unknown reconnection token (seen before).
+[23:15:10] [127.0.0.1][94fc10e6][ExtensionHostConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+[20:43:03] [127.0.0.1][84d945e5][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+[20:46:59] [127.0.0.1][b2fd37a8][ExtensionHostConnection] Unknown reconnection token (seen before).
+[20:49:15] [127.0.0.1][bd1a058e][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+[16:27:27] [127.0.0.1][9345a98e][ExtensionHostConnection] Unknown reconnection token (seen before).
+[16:40:42] [127.0.0.1][f51e4e5d][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+[16:31:41] [127.0.0.1][d273a9cf][ExtensionHostConnection] Unknown reconnection token (seen before).
+[16:32:45] [127.0.0.1][4ed6d38f][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+[16:32:52] [127.0.0.1][7f380c1c][ExtensionHostConnection] Unknown reconnection token (seen before).
+[16:32:56] [127.0.0.1][c5273f8c][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+[21:34:19] [127.0.0.1][43cbbdd6][ExtensionHostConnection] Unknown reconnection token (seen before).
+[21:34:19] [127.0.0.1][2864c137][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda.js
+File not found: /opt/code-server/lib/vscode/out/vsda_bg.wasm
+[16:29:22] [127.0.0.1][f8e82e7e][ExtensionHostConnection] Unknown reconnection token (seen before).
+[16:29:29] [127.0.0.1][1a20d029][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[22:29:22] [127.0.0.1][3c448036][ExtensionHostConnection] Unknown reconnection token (seen before).
+[22:29:30] [127.0.0.1][9330be89][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[00:07:03] [127.0.0.1][85cf99b6][ManagementConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[17:05:48] [127.0.0.1][9452bac0][ManagementConnection] Unknown reconnection token (seen before).
+[17:05:48] [127.0.0.1][1cdbfe43][ExtensionHostConnection] Unknown reconnection token (seen before).
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /opt/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js

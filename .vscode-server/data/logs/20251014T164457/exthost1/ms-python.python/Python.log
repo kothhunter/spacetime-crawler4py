@@ -1,0 +1,50 @@
+2025-10-14 16:45:57.338 [info] Default formatter is set to null for workspace /home/hwlee4
+2025-10-14 16:45:57.338 [info] Test server listening.
+2025-10-14 16:45:57.338 [warning] Failed to check if /usr/local/bin/python3 is an executable [Error: ENOENT: no such file or directory, lstat '/usr/local/bin/python3'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/usr/local/bin/python3'
+}
+2025-10-14 16:45:57.379 [info] > /usr/local/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/interpreterInfo.py
+2025-10-14 16:45:57.383 [error] [Error: Command failed: /usr/local/bin/python3 -I /home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/get_output_via_markers.py /home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: /usr/local/bin/python3: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:525:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/usr/local/bin/python3 -I /home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/get_output_via_markers.py /home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/interpreterInfo.py'
+}
+2025-10-14 16:45:57.417 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2025-10-14 16:45:57.417 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2025-10-14 16:45:57.417 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2025-10-14 16:45:57.417 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2025-10-14 16:45:57.417 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2025-10-14 16:45:59.393 [info] > /usr/local/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/interpreterInfo.py
+2025-10-14 16:45:59.396 [error] [Error: Command failed: /usr/local/bin/python3 -I /home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/get_output_via_markers.py /home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: /usr/local/bin/python3: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:525:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:302:5)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/usr/local/bin/python3 -I /home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/get_output_via_markers.py /home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/interpreterInfo.py'
+}
+2025-10-14 16:45:59.411 [warning] Failed to check if /usr/local/bin/python3 is an executable [Error: ENOENT: no such file or directory, lstat '/usr/local/bin/python3'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/usr/local/bin/python3'
+}
+2025-10-14 16:45:59.485 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/interpreterInfo.py
+2025-10-14 16:46:02.650 [info] Starting Pylance language server.
+2025-10-14 16:49:56.403 [info] Python interpreter path: /usr/bin/python3
