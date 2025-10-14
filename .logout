@@ -1,0 +1,23 @@
+#
+# Default .logout file
+#
+# $Id: dot.logout,v 1.3 1997/02/28 19:13:44 kat Exp $
+# $Source: /usr/src/opt/local/etc/skel/RCS/dot.logout,v $
+#
+#
+
+#
+# Print out any user's jobs which still might be running
+#
+echo "Background processes:"
+
+if ( "$MODULE_OSTYPE" == "SVR4" ) then
+
+        ps -f		# If logged into a Solaris system
+
+else
+
+        ps -xg		# If logged into a SunOS system
+
+endif
+
