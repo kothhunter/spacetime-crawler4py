@@ -1,0 +1,52 @@
+2025-10-14 21:47:23.500 [info] Log level: Info
+2025-10-14 21:47:23.500 [info] Validating found git in: "git"
+2025-10-14 21:47:23.500 [info] Using git "2.34.1" from "git"
+2025-10-14 21:47:23.500 [info] > git rev-parse --show-toplevel [6ms]
+2025-10-14 21:47:23.500 [info] > git rev-parse --git-dir --git-common-dir [58ms]
+2025-10-14 21:47:23.500 [info] Open repository: /home/hwlee4
+2025-10-14 21:47:23.500 [info] > git rev-parse --show-toplevel [14ms]
+2025-10-14 21:47:23.500 [info] No remotes found in the git config file.
+2025-10-14 21:47:23.500 [info] > git config --get commit.template [16ms]
+2025-10-14 21:47:23.500 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2025-10-14 21:47:23.500 [info] > git rev-parse --show-toplevel [14ms]
+2025-10-14 21:47:23.501 [info] > git rev-parse --show-toplevel [50ms]
+2025-10-14 21:47:23.526 [info] > git rev-parse --show-toplevel [12ms]
+2025-10-14 21:47:23.544 [info] > git rev-parse --show-toplevel [6ms]
+2025-10-14 21:47:23.562 [info] > git rev-parse --show-toplevel [5ms]
+2025-10-14 21:47:23.580 [info] > git rev-parse --show-toplevel [6ms]
+2025-10-14 21:47:23.598 [info] > git rev-parse --show-toplevel [4ms]
+2025-10-14 21:47:23.615 [info] > git rev-parse --show-toplevel [4ms]
+2025-10-14 21:47:23.627 [info] > git rev-parse --show-toplevel [5ms]
+2025-10-14 21:47:23.640 [info] > git rev-parse --show-toplevel [4ms]
+2025-10-14 21:47:23.652 [info] > git rev-parse --show-toplevel [4ms]
+2025-10-14 21:47:23.663 [info] > git rev-parse --show-toplevel [4ms]
+2025-10-14 21:47:23.676 [info] > git rev-parse --show-toplevel [4ms]
+2025-10-14 21:47:23.692 [info] > git rev-parse --show-toplevel [5ms]
+2025-10-14 21:47:23.704 [info] > git rev-parse --show-toplevel [5ms]
+2025-10-14 21:47:23.947 [info] > git ls-files --stage -- /home/hwlee4/cs121/Assignment1/PartB.py [8ms]
+2025-10-14 21:47:23.955 [info] > git show --textconv :cs121/Assignment1/PartB.py [25ms]
+2025-10-14 21:47:23.962 [info] > git cat-file -s 26b601b948db2fa491c285cd5d7aa82903289128 [7ms]
+2025-10-14 21:47:24.053 [info] > git check-ignore -v -z --stdin [19ms]
+2025-10-14 21:47:26.026 [info] > git status -z -uall [2586ms]
+2025-10-14 21:47:26.058 [info] No remotes found in the git config file.
+2025-10-14 21:47:26.059 [info] > git config --get commit.template [9ms]
+2025-10-14 21:47:26.066 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-10-14 21:47:27.405 [info] > git status -z -uall [1332ms]
+2025-10-14 21:47:36.228 [info] No remotes found in the git config file.
+2025-10-14 21:47:36.229 [info] > git config --get commit.template [9ms]
+2025-10-14 21:47:36.235 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-10-14 21:47:37.864 [info] > git status -z -uall [1622ms]
+2025-10-14 21:47:42.886 [info] No remotes found in the git config file.
+2025-10-14 21:47:42.887 [info] > git config --get commit.template [8ms]
+2025-10-14 21:47:42.893 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-10-14 21:47:44.004 [info] > git check-ignore -v -z --stdin [11ms]
+2025-10-14 21:47:44.373 [info] > git status -z -uall [1472ms]
+2025-10-14 21:48:34.177 [info] No remotes found in the git config file.
+2025-10-14 21:48:34.178 [info] > git config --get commit.template [10ms]
+2025-10-14 21:48:34.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-10-14 21:48:36.031 [info] > git status -z -uall [1837ms]
+2025-10-14 21:48:40.527 [info] > git check-ignore -v -z --stdin [21ms]
+2025-10-14 21:48:41.048 [info] No remotes found in the git config file.
+2025-10-14 21:48:41.056 [info] > git config --get commit.template [10ms]
+2025-10-14 21:48:41.063 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-10-14 21:48:42.150 [info] > git status -z -uall [1078ms]
