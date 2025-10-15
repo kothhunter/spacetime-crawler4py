@@ -15,3 +15,4 @@
 2025-10-14 16:46:13.808 [info] [Info  - 4:46:13 PM] (2991172) [IDX(2)] Long operation: index packages file:///home/hwlee4 (5688ms)
 2025-10-14 16:46:13.808 [info] [Info  - 4:46:13 PM] (2991172) indexed(2) 155 files over 1 exec env
 2025-10-14 16:46:14.114 [info] [Info  - 4:46:14 PM] (2991172) Indexing finished(2).
+2025-10-14 17:08:12.450 [info] [Info  - 5:08:12 PM] (2991172) Found 11 source files
