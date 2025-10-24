@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ArrayLinkedListTests.dir/gtest/test_lab.cpp.o -o bin/ArrayLinkedListTests  lib/libgtest.a lib/libgtest_main.a lib/libgtest.a 
