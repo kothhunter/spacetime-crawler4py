@@ -45,3 +45,22 @@
 2025-10-24 15:12:24.775 [info] > git config --get commit.template [6ms]
 2025-10-24 15:12:24.788 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
 2025-10-24 15:12:26.811 [info] > git status -z -uall [2017ms]
+2025-10-24 15:12:27.164 [info] > git add -A -- . [2377ms]
+2025-10-24 15:12:27.746 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [576ms]
+2025-10-24 15:12:27.755 [info] > git config --get commit.template [3ms]
+2025-10-24 15:12:27.769 [info] No remotes found in the git config file.
+2025-10-24 15:12:27.769 [info] > git config --get commit.template [6ms]
+2025-10-24 15:12:27.778 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2025-10-24 15:12:29.070 [info] > git ls-files --stage -- /home/hwlee4/ics46/Lab2/ArrayLinkedList/include/SinglyLinkedList.tpp [8ms]
+2025-10-24 15:12:29.088 [info] > git cat-file -s 2f59046b6ed9007539e4172df5ddb72f94b92d73 [10ms]
+2025-10-24 15:12:29.133 [info] > git show --textconv :ics46/Lab2/ArrayLinkedList/include/SinglyLinkedList.tpp [13ms]
+2025-10-24 15:12:29.243 [info] > git status -z -uall [1459ms]
+2025-10-24 15:12:29.329 [info] No remotes found in the git config file.
+2025-10-24 15:12:29.329 [info] > git config --get commit.template [7ms]
+2025-10-24 15:12:29.337 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2025-10-24 15:12:29.905 [info] > git check-ignore -v -z --stdin [12ms]
+2025-10-24 15:12:30.787 [info] > git status -z -uall [1442ms]
+2025-10-24 15:12:31.827 [info] No remotes found in the git config file.
+2025-10-24 15:12:31.835 [info] > git config --get commit.template [8ms]
+2025-10-24 15:12:31.843 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-10-24 15:12:33.559 [info] > git status -z -uall [1711ms]
