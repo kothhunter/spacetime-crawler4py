@@ -7,3 +7,4 @@
 2025-10-24 15:11:47.974 [info] [127.0.0.1][c691cc6e][ManagementConnection] New connection established.
 2025-10-24 15:11:47.994 [info] [127.0.0.1][376c6a63][ExtensionHostConnection] New connection established.
 2025-10-24 15:11:48.251 [info] [127.0.0.1][376c6a63][ExtensionHostConnection] <508722> Launched Extension Host Process.
+2025-10-24 15:16:47.752 [info] New EH opened, aborting shutdown

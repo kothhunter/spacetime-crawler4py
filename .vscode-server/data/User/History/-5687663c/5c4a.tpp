@@ -178,19 +178,20 @@ void BalancedList<T>::add(size_t index, const T& item) {
 // Remove and return the first item
 template <typename T>
 T BalancedList<T>::remove() {
-    if (frontNode == nullptr)
-        throw std::out_of_range("Cannot remove from an empty BalancedList");
-
-    T value = frontNode->array.remove();
-    --totalSize;
-
-    if (frontNode->array.size() == 0) {
-        Node* old = frontNode;
-        frontNode = frontNode->next;
-        if (frontNode == nullptr)
-            endNode = nullptr;
-        delete old;
+    if (isEmpty()) {
+        throw std::out_of_range("List is empty");
     }
+
+    T value = head->array.remove(0);
+    totalSize--;
+
+    if (head->array.isEmpty()) {
+        Node* temp = head;
+        head = head->next;
+        delete temp;
+        if (head == nullptr) tail = nullptr;
+    }
+
     return value;
 }
 

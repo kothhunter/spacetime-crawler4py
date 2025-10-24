@@ -94,136 +94,55 @@ void BalancedList<T>::rangeCheck(size_t index) const {
 template <typename T>
 T BalancedList<T>::get(size_t index) const {
     rangeCheck(index);
-    Node* current = head;
-    while (current != nullptr) {
-        size_t count = current->array.size();
-        if (index < count) {
-            return current->array.get(index);
+
+    Node* cur = head;
+    size_t running = 0;
+    while (cur != nullptr) {
+        size_t nodeSz = cur->array.size();
+        if (index < running + nodeSz) {
+            size_t localIndex = index - running;
+            return cur->array.get(localIndex);
         }
-        index -= count;
-        current = current->next;
+        running += nodeSz;
+        cur = cur->next;
     }
-    throw std::out_of_range("Index out of bounds (internal error)");
+
+    // Should not reach here because rangeCheck protects bounds
+    throw std::out_of_range("Index out of bounds");
 }
 
 // Add an item to the front of the list
 template <typename T>
 void BalancedList<T>::add(const T& item) {
-    if (head == nullptr) {
-        head = tail = new Node(initialArraySize);
-    }
-    if (head->array.size() >= initialArraySize) {
-        Node* newNode = new Node(initialArraySize);
-        newNode->next = head;
-        head = newNode;
-    }
-    head->array.add(0, item);
-    totalSize++;
+    // TODO: implement add with amortized time complexity O(1)
+
+
 }
 
 template <typename T>
 void BalancedList<T>::add(size_t index, const T& item) {
-    if (index > totalSize) {
-        throw std::out_of_range("Index out of bounds");
-    }
-
-    if (head == nullptr) {
-        head = tail = new Node(initialArraySize);
-        head->array.add(item);
-        totalSize++;
-        return;
-    }
-
-    Node* current = head;
-    Node* prev = nullptr;
-    size_t pos = index;
-
-    while (current != nullptr) {
-        size_t count = current->array.size();
-        if (pos <= count) break;
-        pos -= count;
-        prev = current;
-        current = current->next;
-    }
-
-    if (current == nullptr) {
-        tail->array.add(item);
-        totalSize++;
-        return;
-    }
-
-    if (current->array.size() >= initialArraySize) {
-        Node* newNode = new Node(initialArraySize);
-        size_t half = current->array.size() / 2;
-        for (size_t i = half; i < current->array.size(); ++i) {
-            newNode->array.add(current->array.get(i));
-        }
-        current->array.resize(half);
-
-        newNode->next = current->next;
-        current->next = newNode;
-        if (current == tail) tail = newNode;
-
-        if (pos > half) {
-            current = newNode;
-            pos -= half;
-        }
-    }
-
-    current->array.add(pos, item);
-    totalSize++;
+    // TODO: implement add at index 
+    // with worst case time complexity O(n) where n is the number of elements
+    // For full credit, BalancedList should perform better than both ArrayList and SinglyLinkedList 
+    // in the experiment provided in main.cpp
+    
+    
 }
 
 
 // Remove and return the first item
 template <typename T>
 T BalancedList<T>::remove() {
-    if (frontNode == nullptr)
-        throw std::out_of_range("Cannot remove from an empty BalancedList");
-
-    T value = frontNode->array.remove();
-    --totalSize;
-
-    if (frontNode->array.size() == 0) {
-        Node* old = frontNode;
-        frontNode = frontNode->next;
-        if (frontNode == nullptr)
-            endNode = nullptr;
-        delete old;
-    }
-    return value;
+    // TODO: implement remove with time complexity O(1)
+    
 }
 
 // Remove and return an item at a specific index
 template <typename T>
 T BalancedList<T>::remove(size_t index) {
-    rangeCheck(index);
+    // TODO: implement remove at index
+    // with worst case time complexity O(n) where n is the number of elements
+    // For full credit, BalancedList should perform better than both ArrayList and SinglyLinkedList 
+    // in the experiment provided in main.cpp
 
-    Node* current = head;
-    Node* prev = nullptr;
-    while (current != nullptr) {
-        size_t count = current->array.size();
-        if (index < count) {
-            T value = current->array.remove(index);
-            totalSize--;
-
-            if (current->array.isEmpty()) {
-                if (prev == nullptr) {
-                    head = current->next;
-                } else {
-                    prev->next = current->next;
-                }
-                if (current == tail) {
-                    tail = prev;
-                }
-                delete current;
-            }
-            return value;
-        }
-        index -= count;
-        prev = current;
-        current = current->next;
-    }
-
-    throw std::out_of_range("Index out of bounds (internal error)");
 }
