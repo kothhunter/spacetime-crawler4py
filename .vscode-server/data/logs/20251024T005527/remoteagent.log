@@ -1,0 +1,17 @@
+2025-10-24 00:55:27.616 [info] 
+
+
+
+
+2025-10-24 00:55:27.670 [info] Extension host agent started.
+2025-10-24 00:55:27.868 [info] [127.0.0.1][51d5dd2d][ManagementConnection] New connection established.
+2025-10-24 00:55:27.896 [info] [127.0.0.1][d26c3ab3][ExtensionHostConnection] New connection established.
+2025-10-24 00:55:28.137 [info] [127.0.0.1][d26c3ab3][ExtensionHostConnection] <404322> Launched Extension Host Process.
+2025-10-24 01:00:27.672 [info] New EH opened, aborting shutdown
+2025-10-24 01:18:23.837 [info] [127.0.0.1][721bda90][ManagementConnection] New connection established.
+2025-10-24 01:18:23.889 [info] [127.0.0.1][92566ba6][ExtensionHostConnection] New connection established.
+2025-10-24 01:18:23.920 [info] [127.0.0.1][92566ba6][ExtensionHostConnection] <416586> Launched Extension Host Process.
+2025-10-24 01:23:24.109 [info] [127.0.0.1][d26c3ab3][ExtensionHostConnection] <404322> Extension Host Process exited with code: 0, signal: null.
+2025-10-24 05:29:12.779 [info] [127.0.0.1][92566ba6][ExtensionHostConnection] <416586> Extension Host Process exited with code: 0, signal: null.
+2025-10-24 05:29:12.781 [info] Last EH closed, waiting before shutting down
+2025-10-24 05:34:12.782 [info] Last EH closed, shutting down

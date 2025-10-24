@@ -1,0 +1,47 @@
+2025-10-24 15:11:50.059 [info] Log level: Info
+2025-10-24 15:11:50.059 [info] Validating found git in: "git"
+2025-10-24 15:11:50.059 [info] Using git "2.34.1" from "git"
+2025-10-24 15:11:50.059 [info] > git rev-parse --show-toplevel [8ms]
+2025-10-24 15:11:50.059 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2025-10-24 15:11:50.059 [info] Open repository: /home/hwlee4
+2025-10-24 15:11:50.061 [info] > git rev-parse --show-toplevel [56ms]
+2025-10-24 15:11:50.078 [info] > git config --get commit.template [57ms]
+2025-10-24 15:11:50.079 [info] No remotes found in the git config file.
+2025-10-24 15:11:50.090 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [21ms]
+2025-10-24 15:11:50.098 [info] > git rev-parse --show-toplevel [22ms]
+2025-10-24 15:11:50.120 [info] > git rev-parse --show-toplevel [13ms]
+2025-10-24 15:11:50.137 [info] > git rev-parse --show-toplevel [10ms]
+2025-10-24 15:11:50.152 [info] > git rev-parse --show-toplevel [8ms]
+2025-10-24 15:11:50.168 [info] > git rev-parse --show-toplevel [7ms]
+2025-10-24 15:11:50.181 [info] > git rev-parse --show-toplevel [6ms]
+2025-10-24 15:11:50.194 [info] > git rev-parse --show-toplevel [8ms]
+2025-10-24 15:11:50.208 [info] > git rev-parse --show-toplevel [7ms]
+2025-10-24 15:11:50.220 [info] > git rev-parse --show-toplevel [5ms]
+2025-10-24 15:11:50.234 [info] > git rev-parse --show-toplevel [7ms]
+2025-10-24 15:11:50.247 [info] > git rev-parse --show-toplevel [7ms]
+2025-10-24 15:11:50.261 [info] > git rev-parse --show-toplevel [7ms]
+2025-10-24 15:11:50.273 [info] > git rev-parse --show-toplevel [7ms]
+2025-10-24 15:11:50.286 [info] > git rev-parse --show-toplevel [5ms]
+2025-10-24 15:11:50.300 [info] > git rev-parse --show-toplevel [6ms]
+2025-10-24 15:11:50.382 [info] > git show --textconv :ics46/Lab2/ArrayLinkedList/include/SinglyLinkedList.tpp [9ms]
+2025-10-24 15:11:50.392 [info] > git ls-files --stage -- /home/hwlee4/ics46/Lab2/ArrayLinkedList/include/SinglyLinkedList.tpp [11ms]
+2025-10-24 15:11:50.625 [info] > git check-ignore -v -z --stdin [30ms]
+2025-10-24 15:11:54.430 [info] > git status -z -uall [4332ms]
+2025-10-24 15:11:54.458 [info] No remotes found in the git config file.
+2025-10-24 15:11:54.459 [info] > git config --get commit.template [6ms]
+2025-10-24 15:11:54.469 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2025-10-24 15:11:56.579 [info] > git status -z -uall [2106ms]
+2025-10-24 15:12:10.959 [info] No remotes found in the git config file.
+2025-10-24 15:12:10.967 [info] > git config --get commit.template [8ms]
+2025-10-24 15:12:10.974 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2025-10-24 15:12:12.873 [info] > git check-ignore -v -z --stdin [43ms]
+2025-10-24 15:12:13.022 [info] > git status -z -uall [2043ms]
+2025-10-24 15:12:13.767 [info] > git check-ignore -v -z --stdin [32ms]
+2025-10-24 15:12:18.043 [info] No remotes found in the git config file.
+2025-10-24 15:12:18.044 [info] > git config --get commit.template [8ms]
+2025-10-24 15:12:18.052 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2025-10-24 15:12:19.758 [info] > git status -z -uall [1699ms]
+2025-10-24 15:12:24.770 [info] No remotes found in the git config file.
+2025-10-24 15:12:24.775 [info] > git config --get commit.template [6ms]
+2025-10-24 15:12:24.788 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2025-10-24 15:12:26.811 [info] > git status -z -uall [2017ms]
