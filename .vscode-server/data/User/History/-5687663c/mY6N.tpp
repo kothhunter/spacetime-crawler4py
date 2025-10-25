@@ -109,26 +109,24 @@ T BalancedList<T>::get(size_t index) const {
 // Add an item to the front of the list
 template <typename T>
 void BalancedList<T>::add(const T& item) {
-    if (head == nullptr) {
-        head = new Node(0, nullptr);
+    if (tail == nullptr) {
+        head = new Node();
         tail = head;
     }
 
     tail->array.add(item);
 
-    if (tail->array.size() > 10) {
-        Node* newNode = new Node(0, nullptr);
-
+    if (tail->array.size() > MAX_NODE_SIZE) {
+        Node* newNode = new Node();
         int half = tail->array.size() / 2;
         for (int i = half; i < tail->array.size(); ++i) {
             newNode->array.add(tail->array.get(i));
         }
-
         for (int i = tail->array.size() - 1; i >= half; --i) {
             tail->array.remove(i);
         }
 
-        newNode->next = nullptr;
+        newNode->next = tail->next;
         tail->next = newNode;
         tail = newNode;
     }
