@@ -96,3 +96,4 @@
 2025-10-24 16:39:57.220 [warning] [Decorations] CAPPING events from decorations provider vscode.git 437
 2025-10-24 16:40:03.615 [warning] [Decorations] CAPPING events from decorations provider vscode.git 424
 2025-10-24 16:40:14.085 [warning] [Decorations] CAPPING events from decorations provider vscode.git 424
+2025-10-24 18:05:56.450 [info] Lock '/home/hwlee4/.vscode-server/data/User/workspaceStorage/0684665360a1431657c5fb56316f6548/vscode.lock': The lock was lost unexpectedly.
