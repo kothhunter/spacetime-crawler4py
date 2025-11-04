@@ -1,5 +1,0 @@
-2025-10-14 21:47:22.853 [info] Default formatter is set to null for workspace /home/hwlee4
-2025-10-14 21:47:22.853 [info] Test server listening.
-2025-10-14 21:47:22.884 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/interpreterInfo.py
-2025-10-14 21:47:23.065 [info] Python interpreter path: /usr/bin/python3
-2025-10-14 21:47:25.037 [info] Starting Pylance language server.

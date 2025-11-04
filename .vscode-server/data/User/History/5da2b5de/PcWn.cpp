@@ -12,7 +12,7 @@ int Calculator::performOperation(char op, int first, int second) {
         case '-': return first - second;
         case '*': return first * second;
         case '/':
-            if (second == 0) throw std::invalid_argument("Error: divide by zero");
+            if (second == 0) throw std::invalid_argument("divide by zero");
             return first / second;
         default:
             throw std::invalid_argument("unknown operator");
@@ -64,14 +64,14 @@ void Calculator::run() {
 // Helper method to process operations
 void Calculator::processOperation(const std::string& line) {
     if (memory.isEmpty()) {
-        std::cout << "Error: operator requires two arguments" << std::endl;
+        std::cout << "Error: not enough operands" << std::endl;
         return;
     }
 
     int second = memory.pop();
 
     if (memory.isEmpty()) {
-        std::cout << "Error: operator requires two arguments" << std::endl;
+        std::cout << "Error: not enough operands" << std::endl;
         memory.push(second);
         return;
     }
