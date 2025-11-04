@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/tyya2021/Desktop/ICS46_F25/Calculator_cpp/cmake_install.cmake",
+		"/Users/tyya2021/Desktop/ICS46_F25/Calculator_cpp/gtest/cmake_install.cmake",
+		"/Users/tyya2021/Desktop/ICS46_F25/Calculator_cpp/_deps/googletest-build/cmake_install.cmake",
+		"/Users/tyya2021/Desktop/ICS46_F25/Calculator_cpp/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"/Users/tyya2021/Desktop/ICS46_F25/Calculator_cpp/_deps/googletest-build/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

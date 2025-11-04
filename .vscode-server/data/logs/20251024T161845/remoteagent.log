@@ -8,3 +8,6 @@
 2025-10-24 16:18:45.775 [info] [127.0.0.1][542c49ef][ExtensionHostConnection] New connection established.
 2025-10-24 16:18:45.931 [info] [127.0.0.1][542c49ef][ExtensionHostConnection] <618239> Launched Extension Host Process.
 2025-10-24 16:23:45.603 [info] New EH opened, aborting shutdown
+2025-10-24 20:26:07.379 [info] [127.0.0.1][542c49ef][ExtensionHostConnection] <618239> Extension Host Process exited with code: 0, signal: null.
+2025-10-24 20:26:07.381 [info] Last EH closed, waiting before shutting down
+2025-10-24 20:31:07.383 [info] Last EH closed, shutting down

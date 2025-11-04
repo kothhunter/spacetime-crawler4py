@@ -444,3 +444,37 @@
 2025-10-24 18:20:23.319 [info] No remotes found in the git config file.
 2025-10-24 18:20:23.319 [info] > git config --get commit.template [7ms]
 2025-10-24 18:20:23.327 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-10-24 18:20:25.011 [info] > git add -A -- . [1225ms]
+2025-10-24 18:20:25.020 [info] > git status -z -uall [1687ms]
+2025-10-24 18:20:25.258 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [239ms]
+2025-10-24 18:20:25.268 [info] > git config --get commit.template [3ms]
+2025-10-24 18:20:25.285 [info] > git config --get commit.template [9ms]
+2025-10-24 18:20:25.285 [info] No remotes found in the git config file.
+2025-10-24 18:20:25.293 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2025-10-24 18:20:26.493 [info] > git status -z -uall [1195ms]
+2025-10-24 18:20:26.552 [info] No remotes found in the git config file.
+2025-10-24 18:20:26.552 [info] > git config --get commit.template [7ms]
+2025-10-24 18:20:26.560 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2025-10-24 18:20:26.591 [info] > git ls-files --stage -- /home/hwlee4/ics46/Lab2/ArrayLinkedList/include/BalancedList.tpp [7ms]
+2025-10-24 18:20:26.602 [info] > git cat-file -s 278c22526e685a261a2276fe9a499a6a62ff418b [6ms]
+2025-10-24 18:20:26.645 [info] > git show --textconv :ics46/Lab2/ArrayLinkedList/include/BalancedList.tpp [10ms]
+2025-10-24 18:20:27.753 [info] > git status -z -uall [1186ms]
+2025-10-24 18:20:30.029 [info] No remotes found in the git config file.
+2025-10-24 18:20:30.034 [info] > git config --get commit.template [6ms]
+2025-10-24 18:20:30.040 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2025-10-24 18:20:31.279 [info] > git status -z -uall [1233ms]
+2025-10-24 18:20:53.774 [info] No remotes found in the git config file.
+2025-10-24 18:20:53.775 [info] > git config --get commit.template [8ms]
+2025-10-24 18:20:53.781 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2025-10-24 18:20:55.034 [info] > git status -z -uall [1248ms]
+2025-10-24 18:26:31.426 [info] No remotes found in the git config file.
+2025-10-24 18:26:31.427 [info] > git config --get commit.template [6ms]
+2025-10-24 18:26:31.434 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-10-24 18:26:33.299 [info] > git status -z -uall [1858ms]
+2025-10-24 18:26:36.244 [info] > git show --textconv :ics46/Lab2/ArrayLinkedList/include/BalancedList.tpp [12ms]
+2025-10-24 18:26:36.246 [info] > git ls-files --stage -- /home/hwlee4/ics46/Lab2/ArrayLinkedList/include/BalancedList.tpp [7ms]
+2025-10-24 18:26:36.258 [info] > git cat-file -s 278c22526e685a261a2276fe9a499a6a62ff418b [6ms]
+2025-10-24 18:26:41.973 [info] No remotes found in the git config file.
+2025-10-24 18:26:41.973 [info] > git config --get commit.template [7ms]
+2025-10-24 18:26:41.979 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2025-10-24 18:26:43.230 [info] > git status -z -uall [1246ms]

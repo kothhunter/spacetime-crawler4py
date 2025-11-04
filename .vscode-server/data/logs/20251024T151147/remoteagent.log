@@ -8,3 +8,6 @@
 2025-10-24 15:11:47.994 [info] [127.0.0.1][376c6a63][ExtensionHostConnection] New connection established.
 2025-10-24 15:11:48.251 [info] [127.0.0.1][376c6a63][ExtensionHostConnection] <508722> Launched Extension Host Process.
 2025-10-24 15:16:47.752 [info] New EH opened, aborting shutdown
+2025-10-24 18:40:03.149 [info] [127.0.0.1][376c6a63][ExtensionHostConnection] <508722> Extension Host Process exited with code: 0, signal: null.
+2025-10-24 18:40:03.150 [info] Last EH closed, waiting before shutting down
+2025-10-24 18:45:03.151 [info] Last EH closed, shutting down
