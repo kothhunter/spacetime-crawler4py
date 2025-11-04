@@ -13,7 +13,6 @@ void CircularArray<T>::enqueue(const T& item) {
 
     this->data[rear] = item;
     rear = (rear + 1) % this->capacity;
-    this->count++;
 
     if (rear == front) {
         full = true;
@@ -28,7 +27,6 @@ T CircularArray<T>::dequeue() {
 
     T item = this->data[front];
     front = (front + 1) % this->capacity;
-    this->count--;
     full = false;
 
     return item;
@@ -66,7 +64,6 @@ void CircularArray<T>::resize() {
     delete[] this->data;
     this->data = newData;
     this->capacity = newCapacity;
-    this->count = currentSize;
     front = 0;
     rear = currentSize;
     full = false;

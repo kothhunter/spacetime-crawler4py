@@ -7,15 +7,13 @@
 
 template <typename T>
 void QueueStack<T>::push(const T& value) {
-    q2.enqueue(value);
+    q1.enqueue(value);
 
-    while (!q1.isEmpty()) {
-        q2.enqueue(q1.dequeue());
+    int size = q1.size();
+    for (int i = 0; i < size - 1; ++i) {
+        T temp = q1.dequeue();
+        q1.enqueue(temp);
     }
-    
-    CircularArray<T> temp = q1;
-    q1 = q2;
-    q2 = temp;
 }
 
 template <typename T>
