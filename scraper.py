@@ -166,11 +166,15 @@ def extract_next_links(url, resp):
     links = []
     for link in soup.find_all('a', href=True):
         href = link['href']
-        # Convert relative URLs to absolute
-        absolute_url = urljoin(resp.url, href)
-        # Defragment URL
-        defragged, _ = urldefrag(absolute_url)
-        links.append(defragged)
+        try:
+            # Convert relative URLs to absolute
+            absolute_url = urljoin(resp.url, href)
+            # Defragment URL
+            defragged, _ = urldefrag(absolute_url)
+            links.append(defragged)
+        except (ValueError, Exception) as e:
+            # Skip malformed URLs (like placeholders with YOUR_IP, etc.)
+            continue
     
     
     return links
@@ -218,15 +222,24 @@ def is_valid(url):
             return False
         
         # Check query parameters safely
+        # In is_valid() function, replace the doku.php check with:
         if parsed.query:
             query_lower = parsed.query.lower()
-            # Block calendar export formats (not HTML with text content)
+            # Block calendar export formats
             if 'ical' in query_lower or 'outlook' in query_lower:
                 return False
-            # Block common event display parameters that create duplicates
-            if 'eventdisplay' in query_lower:
+            # Block wiki metadata and action pages (not content)
+            if 'do=' in query_lower:  # Blocks do=diff, do=revisions, do=backlink, etc.
                 return False
-        
+            # Block old revision views
+            if 'rev=' in query_lower:  # Blocks rev=1234567890
+                return False
+            # Block wiki comparison pages
+            if 'rev2' in query_lower or 'difftype' in query_lower:
+                return False
+            # Block event display parameters that create duplicates
+            if 'eventdisplay' in query_lower or 'event' in query_lower:
+                return False
         # Avoid URLs that are too long
         if len(url) > 200:
             return False
