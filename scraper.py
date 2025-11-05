@@ -272,6 +272,7 @@ def is_valid(url):
         raise
 
 def save_analytics():
+    #saves crawler's analysis results into json file
     with open('analytics.json', 'w') as f:
         json.dump({
             'unique_pages': len(analytics['unique_urls']),
