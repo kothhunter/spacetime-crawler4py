@@ -3,3 +3,4 @@
 2025-11-05 12:53:18.290 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/interpreterInfo.py
 2025-11-05 12:53:18.356 [info] Python interpreter path: /usr/bin/python3
 2025-11-05 12:53:19.880 [info] Starting Pylance language server.
+2025-11-05 13:22:35.967 [info] Discover tests for workspace name: hwlee4 - uri: /home/hwlee4/spacetime-crawler4py/scraper.py
