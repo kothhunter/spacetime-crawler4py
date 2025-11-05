@@ -1,0 +1,17 @@
+2025-11-05 12:55:26.826 [info] (Client) Pylance async client (2024.3.2) started with python extension (2024.2.1)
+2025-11-05 12:55:27.347 [info] [Info  - 12:55:27 PM] (61775) Pylance language server 2024.3.2 (pyright version 1.1.351, commit 87171fbf) starting
+2025-11-05 12:55:27.347 [info] [Info  - 12:55:27 PM] (61775) Server root directory: file:///home/hwlee4/.vscode-server/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2025-11-05 12:55:27.347 [info] [Info  - 12:55:27 PM] (61775) Starting service instance "spacetime-crawler4py"
+2025-11-05 12:55:27.390 [info] [Info  - 12:55:27 PM] (61775) Setting pythonPath for service "spacetime-crawler4py": "/usr/bin/python3"
+2025-11-05 12:55:27.390 [info] [Info  - 12:55:27 PM] (61775) Setting environmentName for service "spacetime-crawler4py": "3.12.3 (global)"
+2025-11-05 12:55:27.457 [info] [Info  - 12:55:27 PM] (61775) Assuming Python version 3.12
+2025-11-05 12:55:27.655 [info] [Info  - 12:55:27 PM] (61775) Found 11 source files
+2025-11-05 12:55:27.947 [info] [Info  - 12:55:27 PM] (61775) Background analysis(1) root directory: file:///home/hwlee4/.vscode-server/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2025-11-05 12:55:27.947 [info] [Info  - 12:55:27 PM] (61775) Background analysis(1) started
+2025-11-05 12:55:28.213 [info] [Info  - 12:55:28 PM] (61775) Indexer background runner(2) root directory: file:///home/hwlee4/.vscode-server/extensions/ms-python.vscode-pylance-2024.3.2/dist (index)
+2025-11-05 12:55:28.213 [info] [Info  - 12:55:28 PM] (61775) Indexing(2) started
+2025-11-05 12:55:29.521 [info] [Info  - 12:55:29 PM] (61775) scanned(2) 259 files over 1 exec env
+2025-11-05 12:55:33.598 [info] [Info  - 12:55:33 PM] (61775) [IDX(2)] Long operation: index execution environment file:///home/hwlee4/cs121/spacetime-crawler4py (3073ms)
+2025-11-05 12:55:33.762 [info] [Info  - 12:55:33 PM] (61775) [IDX(2)] Long operation: index packages file:///home/hwlee4/cs121/spacetime-crawler4py (3274ms)
+2025-11-05 12:55:33.762 [info] [Info  - 12:55:33 PM] (61775) indexed(2) 167 files over 1 exec env
+2025-11-05 12:55:34.038 [info] [Info  - 12:55:34 PM] (61775) Indexing finished(2).

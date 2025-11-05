@@ -1,0 +1,16 @@
+2025-11-05 12:53:19.074 [info] (Client) Pylance async client (2024.3.2) started with python extension (2024.2.1)
+2025-11-05 12:53:19.755 [info] [Info  - 12:53:19 PM] (61104) Pylance language server 2024.3.2 (pyright version 1.1.351, commit 87171fbf) starting
+2025-11-05 12:53:19.864 [info] [Info  - 12:53:19 PM] (61104) Server root directory: file:///home/hwlee4/.vscode-server/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2025-11-05 12:53:19.864 [info] [Info  - 12:53:19 PM] (61104) Starting service instance "hwlee4"
+2025-11-05 12:53:19.918 [info] [Info  - 12:53:19 PM] (61104) Setting pythonPath for service "hwlee4": "/usr/bin/python3"
+2025-11-05 12:53:19.918 [info] [Info  - 12:53:19 PM] (61104) Setting environmentName for service "hwlee4": "3.10.12 (global)"
+2025-11-05 12:53:19.985 [info] [Info  - 12:53:19 PM] (61104) Assuming Python version 3.12
+2025-11-05 12:53:21.310 [info] [Info  - 12:53:21 PM] (61104) Found 82 source files
+2025-11-05 12:53:21.348 [info] [Info  - 12:53:21 PM] (61104) Background analysis(1) root directory: file:///home/hwlee4/.vscode-server/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2025-11-05 12:53:21.348 [info] [Info  - 12:53:21 PM] (61104) Background analysis(1) started
+2025-11-05 12:53:21.848 [info] [Info  - 12:53:21 PM] (61104) Indexer background runner(2) root directory: file:///home/hwlee4/.vscode-server/extensions/ms-python.vscode-pylance-2024.3.2/dist (index)
+2025-11-05 12:53:21.848 [info] [Info  - 12:53:21 PM] (61104) Indexing(2) started
+2025-11-05 12:53:23.364 [info] [Info  - 12:53:23 PM] (61104) scanned(2) 259 files over 1 exec env
+2025-11-05 12:53:25.064 [info] [Info  - 12:53:25 PM] (61104) indexed(2) 167 files over 1 exec env
+2025-11-05 12:53:25.329 [info] [Info  - 12:53:25 PM] (61104) Indexing finished(2).
+2025-11-05 12:55:11.605 [info] [Info  - 12:55:11 PM] (61104) Found 93 source files

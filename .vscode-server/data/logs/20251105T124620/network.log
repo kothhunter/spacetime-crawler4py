@@ -1,0 +1,2 @@
+2025-11-05 12:46:21.358 [error] node #1: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET getaddrinfo ENOTFOUND az764295.vo.msecnd.net
+2025-11-05 12:54:41.341 [error] node #3: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET getaddrinfo ENOTFOUND az764295.vo.msecnd.net

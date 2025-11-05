@@ -1,0 +1,51 @@
+2025-11-05 12:55:23.584 [info] Default formatter is set to null for workspace /home/hwlee4/cs121/spacetime-crawler4py
+2025-11-05 12:55:23.972 [info] Test server listening.
+2025-11-05 12:55:23.975 [warning] Failed to check if /usr/local/bin/python3 is an executable [Error: ENOENT: no such file or directory, lstat '/usr/local/bin/python3'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/usr/local/bin/python3'
+}
+2025-11-05 12:55:24.033 [info] > /usr/local/bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/interpreterInfo.py
+2025-11-05 12:55:24.054 [error] [Error: Command failed: /usr/local/bin/python3 -I /home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/get_output_via_markers.py /home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: /usr/local/bin/python3: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:525:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/usr/local/bin/python3 -I /home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/get_output_via_markers.py /home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/interpreterInfo.py'
+}
+2025-11-05 12:55:24.110 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2025-11-05 12:55:24.110 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2025-11-05 12:55:24.110 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2025-11-05 12:55:24.110 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2025-11-05 12:55:26.081 [info] > /usr/local/bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/interpreterInfo.py
+2025-11-05 12:55:26.085 [error] [Error: Command failed: /usr/local/bin/python3 -I /home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/get_output_via_markers.py /home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: /usr/local/bin/python3: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:525:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:302:5)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/usr/local/bin/python3 -I /home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/get_output_via_markers.py /home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/interpreterInfo.py'
+}
+2025-11-05 12:55:26.105 [warning] Failed to check if /usr/local/bin/python3 is an executable [Error: ENOENT: no such file or directory, lstat '/usr/local/bin/python3'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/usr/local/bin/python3'
+}
+2025-11-05 12:55:27.367 [info] Starting Pylance language server.
+2025-11-05 12:55:36.091 [info] Python interpreter path: /usr/bin/python3
+2025-11-05 13:05:28.152 [info] Discover tests for workspace name: spacetime-crawler4py - uri: /home/hwlee4/cs121/spacetime-crawler4py/scraper.py
+2025-11-05 13:06:28.386 [info] Running installed packages checker:  python /home/hwlee4/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/installed_check.py /home/hwlee4/cs121/spacetime-crawler4py/packages/requirements.txt
+2025-11-05 13:06:28.386 [info] > python ~/.vscode-server/extensions/ms-python.python-2024.2.1/pythonFiles/installed_check.py ./packages/requirements.txt
