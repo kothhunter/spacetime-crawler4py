@@ -1,0 +1,161 @@
+﻿1. How many unique pages did you find? Uniqueness for the purposes of this assignment is ONLY established by the URL, but discarding the fragment part. So, for example, http://www.ics.uci.edu#aaa and http://www.ics.uci.edu#bbb are the same URL. Even if you implement additional methods for textual similarity detection, please keep considering the above definition of unique pages for the purposes of counting the unique pages in this assignment.
+Number of Unique Pages found:
+* 10,500
+
+
+2. What is the longest page in terms of the number of words? (HTML markup doesn’t count as words)
+Longest Page:
+* http://www.ics.uci.edu/~kay/wordlist.txt, 
+* word count: 475,850 (HTML markup excluded)
+
+
+3. What are the 50 most common words in the entire set of pages crawled under these domains? (Ignore English stop words, which can be found, for example, here Links to an external site.) Submit the list of common words ordered by frequency.
+50 most common words by frequency:
+1. "s": 140,239
+2. "events": 76,466
+3. "research": 34,330
+4. "ics": 30,063
+5. "markellekelly": 26,855
+6. "day": 23,474
+7. "computer": 22,188
+8. "student": 22,006
+9. "d": 21,043
+10. "data": 20,648
+11. "uci": 19,752
+12. "will": 19,565
+13. "information": 19,107
+14. "m": 17,503
+15. "p": 17,322
+16. "us": 17,202
+17. "students": 17,171
+18. "software": 16,983
+19. "t": 16,676
+20. "can": 16,628
+21. "e": 16,425
+22. "graduate": 16,152
+23. "search": 15,589
+24. "may": 15,584
+25. "undergraduate": 15,383
+26. "science": 15,110
+27. "html": 14,886
+28. "n": 14,300
+29. "informatics": 14,260
+30. "code": 13,777
+31. "learning": 13,603
+32. "b": 13,526
+33. "news": 13,395
+34. "time": 13,069
+35. "project": 13,053
+36. "update": 12,940
+37. "irvine": 12,513
+38. "engineering": 12,430
+39. "projects": 11,811
+40. "community": 11,524
+41. "wics": 11,462
+42. "one": 11,429
+43. "automatic": 11,400
+44. "l": 11,157
+45. "new": 10,547
+46. "university": 10,530
+47. "june": 10,481
+48. "september": 10,347
+49. "systems": 10,315
+50. "october": 10,170
+
+
+4. How many subdomains did you find in the uci.edu domain? Submit the list of subdomains ordered alphabetically and the number of unique pages detected in each subdomain. The content of this list should be lines containing subdomain, number, for example:
+vision.ics.uci.edu, 10 (not the actual number here)
+The total number of subdomains: 93
+   1. accessibility.ics.uci.edu, 5
+   2. acoi.ics.uci.edu, 119
+   3. archive.ics.uci.edu, 83
+   4. asterix.ics.uci.edu, 6
+   5. betapro.proteomics.ics.uci.edu, 3
+   6. capstone.cs.uci.edu, 8
+   7. cdb.ics.uci.edu, 24
+   8. cert.ics.uci.edu, 13
+   9. chemdb.ics.uci.edu, 23
+   10. chenli.ics.uci.edu, 10
+   11. circadiomics.ics.uci.edu, 5
+   12. cloudberry.ics.uci.edu, 24
+   13. cml.ics.uci.edu, 206
+   14. code.ics.uci.edu, 14
+   15. computableplant.ics.uci.edu, 39
+   16. courselisting.ics.uci.edu, 3
+   17. create.ics.uci.edu, 7
+   18. cs.ics.uci.edu, 12
+   19. cs.uci.edu, 2
+   20. cwicsocal18.ics.uci.edu, 6
+   21. cyberclub.ics.uci.edu, 2
+   22. cybert.ics.uci.edu, 26
+   23. dgillen.ics.uci.edu, 23
+   24. ds4all.ics.uci.edu, 5
+   25. duttgroup.ics.uci.edu, 101
+   26. dynamo.ics.uci.edu, 4
+   27. edgelab.ics.uci.edu, 4
+   28. emj.ics.uci.edu, 41
+   29. evoke.ics.uci.edu, 2
+   30. flamingo.ics.uci.edu, 11
+   31. fr.ics.uci.edu, 2
+   32. frost.ics.uci.edu, 1
+   33. futurehealth.ics.uci.edu, 164
+   34. grape.ics.uci.edu, 958
+   35. graphics.ics.uci.edu, 5
+   36. graphmod.ics.uci.edu, 1
+   37. hai.ics.uci.edu, 6
+   38. hobbes.ics.uci.edu, 9
+   39. hpi.ics.uci.edu, 5
+   40. hub.ics.uci.edu, 4
+   41. icde2023.ics.uci.edu, 46
+   42. ics.uci.edu, 827
+   43. industryshowcase.ics.uci.edu, 23
+   44. informatics.ics.uci.edu, 2
+   45. informatics.uci.edu, 2
+   46. insite.ics.uci.edu, 6
+   47. ipubmed.ics.uci.edu, 1
+   48. isg.ics.uci.edu, 419
+   49. jgarcia.ics.uci.edu, 5
+   50. luci.ics.uci.edu, 3
+   51. mailman.ics.uci.edu, 23
+   52. malek.ics.uci.edu, 1
+   53. mcs.ics.uci.edu, 12
+   54. mdogucu.ics.uci.edu, 1
+   55. mhcid.ics.uci.edu, 20
+   56. mlphysics.ics.uci.edu, 1
+   57. motifmap.ics.uci.edu, 2
+   58. mswe.ics.uci.edu, 11
+   59. mupro.proteomics.ics.uci.edu, 3
+   60. myip.ics.uci.edu, 1
+   61. nalini.ics.uci.edu, 3
+   62. ngs.ics.uci.edu, 1342
+   63. psearch.ics.uci.edu, 1
+   64. redmiles.ics.uci.edu, 1
+   65. riscit.ics.uci.edu, 3
+   66. scratch.proteomics.ics.uci.edu, 4
+   67. seal.ics.uci.edu, 45
+   68. selectpro.proteomics.ics.uci.edu, 6
+   69. sherlock.ics.uci.edu, 4
+   70. speedtest.ics.uci.edu, 1
+   71. staging-hub.ics.uci.edu, 2
+   72. stairs.ics.uci.edu, 3
+   73. stat.ics.uci.edu, 11
+   74. stat.uci.edu, 2
+   75. statconsulting.ics.uci.edu, 3
+   76. statistics-stage.ics.uci.edu, 10
+   77. student-council.ics.uci.edu, 7
+   78. studentcouncil.ics.uci.edu, 7
+   79. summeracademy.ics.uci.edu, 4
+   80. swiki.ics.uci.edu, 120
+   81. tad.ics.uci.edu, 2
+   82. tastier.ics.uci.edu, 1
+   83. unite.ics.uci.edu, 8
+   84. vision.ics.uci.edu, 178
+   85. wics.ics.uci.edu, 2270
+   86. wiki.ics.uci.edu, 120
+   87. www-db.ics.uci.edu, 5
+   88. www.cs.uci.edu, 4
+   89. www.ics.uci.edu, 1691
+   90. www.informatics.ics.uci.edu, 1
+   91. www.informatics.uci.edu, 1006
+   92. www.stat.uci.edu, 238
+   93. xtune.ics.uci.edu, 2
